@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+    <ImageView
+        android:id="@+id/logoo"
+        android:scaleType="centerInside"
+        android:src="@drawable/raysit"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+    </ImageView>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_below="@+id/logoo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:id="@+id/name"
+                    android:drawablePadding="5dp"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name*" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:id="@+id/mobile_no"
+                    android:inputType="number"
+                    android:drawablePadding="5dp"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mobile No.*" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:inputType="textEmailAddress"
+                    android:drawablePadding="5dp"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email*" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--app:cardElevation="3dp"-->
+                <!--app:cardCornerRadius="2dp"-->
+                <!--app:cardBackgroundColor="@color/white"-->
+                <!--android:layout_marginBottom="0dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/message"-->
+                    <!--android:textSize="15sp"-->
+                    <!--android:fontFamily="sans-serif-thin"-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--android:gravity="top|left"-->
+                    <!--android:scrollbars="vertical"-->
+                    <!--android:hint="Purpose of payment..........."-->
+                    <!--android:scrollIndicators="none"-->
+                    <!--android:inputType="textMultiLine"-->
+                    <!--android:background="@color/white"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp" />-->
+
+            <!--</android.support.v7.widget.CardView>-->
+
+
+
+
+
+            <!--<android.support.v7.widget.CardView-->
+               <!--app:cardElevation="4dp"-->
+               <!--android:visibility="gone"-->
+               <!--android:layout_marginLeft="10dp"-->
+               <!--android:layout_marginRight="10dp"-->
+               <!--android:layout_marginBottom="15dp"-->
+               <!--android:layout_marginTop="15dp"-->
+               <!--app:cardBackgroundColor="#ffffff"-->
+               <!--android:layout_width="match_parent"-->
+               <!--android:layout_height="45dp">-->
+               <!--<Spinner-->
+                   <!--android:id="@+id/spinner"-->
+                   <!--android:layout_width="match_parent"-->
+                   <!--android:layout_height="match_parent"-->
+                   <!--android:prompt="@string/spinner_title"/>-->
+           <!--</android.support.v7.widget.CardView>-->
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/purpose"
+                    android:inputType="textEmailAddress"
+                    android:drawablePadding="5dp"
+                    android:textSize="13sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Purpose of Payment(Training/Development)" />
+
+            </android.support.design.widget.TextInputLayout>
+           <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/amount"
+                    android:inputType="textEmailAddress"
+                    android:drawablePadding="5dp"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Amount(Rs.)" />
+
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:onClick="pay"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:id="@+id/register"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-thin"
+                android:text="Pay Now"
+                android:background="@color/colorPrimary"
+                android:layout_width="300dp"
+                android:layout_height="40dp">
+            </Button>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/paymentback"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+</RelativeLayout>

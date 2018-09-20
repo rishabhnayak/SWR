@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "850569276855",
+    "firebase_url": "https://fir-world-rays.firebaseio.com",
+    "project_id": "fir-world-rays",
+    "storage_bucket": "fir-world-rays.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850569276855:android:f995d256e8c7ba63",
+        "android_client_info": {
+          "package_name": "com.raysitworld.sworldrays"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850569276855-jequpnkhjbnm7kimonhdfu24l9b61957.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raysitworld.sworldrays",
+            "certificate_hash": "3076f5a582f139288c4a2ba650813268717f64cc"
+          }
+        },
+        {
+          "client_id": "850569276855-ufoikqqc9r9h1m418jce93puo55l1d2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnw7iiD2nvwLIy7rOhpclabBIBYg9IWdw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850569276855-ufoikqqc9r9h1m418jce93puo55l1d2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

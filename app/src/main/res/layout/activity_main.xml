@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:scrollbars="none"
+    android:scrollIndicators="none"
+    android:overScrollMode="always"
+    android:layout_height="match_parent"
+    >
+
+<include layout="@layout/cards" ></include>
+
+</ScrollView>
